@@ -1,4 +1,4 @@
-import config from './packages/eslint-config/dist/index.js';
+import config from '@hedgehoglab/eslint-config';
 
 export default [
     ...config,
