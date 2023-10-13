@@ -1,19 +1,27 @@
 {
   "name": "hhl-linters",
-  "type": "module",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Basic linter rules for the hedgehog lab org",
-  "scripts": {
-    "lint": "eslint .",
-    "test": "pnpm -r run test",
-    "prepare": "pnpm -r run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
-  },
-  "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
   "license": "ISC",
+  "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "lint": "pnpm lint:eslint && pnpm lint:stylelint",
+    "lint:eslint": "eslint .",
+    "lint:stylelint": "stylelint './**/*.{scss,vue}'",
+    "make:package": "node --no-warnings=ExperimentalWarning scripts/make-package/index.js",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
+    "sort-package-json": "sort-package-json package.json packages/*/package.json",
+    "test": "pnpm -r run test"
+  },
   "devDependencies": {
     "@hedgehoglab/eslint-config": "workspace:^",
+    "@hedgehoglab/stylelint-config": "workspace:^",
     "bumpp": "^9.2.0",
-    "eslint": "^8.51.0"
+    "eslint": "^8.51.0",
+    "sort-package-json": "^2.6.0",
+    "stylelint": "^15.10.3"
   }
 }

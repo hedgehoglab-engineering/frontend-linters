@@ -1,3 +1,4 @@
+// @ts-ignore
 import * as pluginImport from 'eslint-plugin-i';
 
 export default {

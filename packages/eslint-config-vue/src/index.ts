@@ -1,4 +1,6 @@
+// @ts-ignore
 import pluginVue from 'eslint-plugin-vue';
+// @ts-ignore
 import pluginVueAccessibility from 'eslint-plugin-vuejs-accessibility';
 
 export default {

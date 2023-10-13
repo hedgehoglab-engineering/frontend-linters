@@ -1,20 +1,34 @@
 {
   "name": "@hedgehoglab/eslint-config-vue",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Basic eslint config rules for the hedgehog lab org",
-  "main": "./index.js",
-  "type": "module",
-  "files": [
-    "*.js"
-  ],
   "keywords": [
     "eslint-config",
     "hedgehoglab"
   ],
-  "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
   "license": "ISC",
+  "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --clean --dts"
+  },
   "dependencies": {
     "eslint-plugin-vue": "^9.17.0",
     "eslint-plugin-vuejs-accessibility": "^2.2.0"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
   }
 }
