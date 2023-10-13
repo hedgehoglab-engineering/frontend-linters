@@ -1,0 +1,20 @@
+{
+  "name": "@hedgehoglab/eslint-config",
+  "version": "0.1.0",
+  "description": "Basic eslint config rules for the hedgehog lab org",
+  "main": "./index.js",
+  "type": "module",
+  "files": [
+    "*.js"
+  ],
+  "keywords": [
+    "eslint-config",
+    "hedgehoglab"
+  ],
+  "dependencies": {
+    "@hedgehoglab/eslint-config-basic": "workspace:*",
+    "@hedgehoglab/eslint-config-vue": "workspace:*"
+  },
+  "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
+  "license": "ISC"
+}
