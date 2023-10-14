@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/stylelint-config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/stylelint-config",
