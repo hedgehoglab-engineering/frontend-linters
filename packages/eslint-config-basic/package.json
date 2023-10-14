@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/eslint-config-basic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Basic eslint config rules for the hedgehog lab org",
   "keywords": [
     "eslint-config",
