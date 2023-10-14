@@ -19,7 +19,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "*.js"
+    "./dist"
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --clean --dts"
