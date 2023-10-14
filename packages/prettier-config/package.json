@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/prettier-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/prettier-config",
