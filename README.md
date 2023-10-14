@@ -1,13 +1,9 @@
 ![Fancy logo](./assets/images/hhl-logo-light.png#gh-dark-mode-only)
 ![Fancy logo](./assets/images/hhl-logo-dark.png#gh-light-mode-only)
 
-<h1 align="center">
-  hedgehog lab frontend linters
-</h1>
+# hedgehog lab frontend linters
 
-<p align="center">
-  Monorepo for managing all the linter configs used on projects within the hedgehog labs organisation.
-</p>
+Monorepo for managing all the linter configs used on projects within the hedgehog labs organisation.
 
 ## Eslint
 
