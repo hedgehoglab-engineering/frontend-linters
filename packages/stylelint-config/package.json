@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "keywords": [],
+  "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/stylelint-config",
   "license": "ISC",
   "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
   "type": "module",

@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "keywords": [],
+  "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/stylelint-config-vue",
   "license": "ISC",
   "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
   "type": "module",
@@ -20,13 +21,13 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --clean --dts && fix-tsup-cjs"
   },
+  "dependencies": {
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recommended-vue": "^1.5.0"
+  },
   "devDependencies": {
     "fix-tsup-cjs": "^1.2.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recommended-vue": "^1.5.0"
   }
 }

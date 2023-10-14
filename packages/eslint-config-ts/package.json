@@ -6,6 +6,7 @@
     "eslint-config",
     "hedgehoglab"
   ],
+  "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/eslint-config-ts",
   "license": "ISC",
   "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
   "type": "module",
