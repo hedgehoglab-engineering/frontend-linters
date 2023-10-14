@@ -1,7 +1,7 @@
 ![Fancy logo](../../assets/images/hhl-logo-light.png#gh-dark-mode-only)
 ![Fancy logo](../../assets/images/hhl-logo-dark.png#gh-light-mode-only)
 
-# @hedgehoglab/eslint-config
+# @hedgehoglab/eslint-config-nuxt
 
 This package contains the standard ESlint configuration used on all hedgehog lab projects, both internally and for our clients.
 
@@ -12,21 +12,21 @@ This package is meant to be used with eslint configs using the new [ESlint flat 
 Add the config to your project dependencies:
 
 ```bash 
-yarn add -D @hedgehoglab/eslint-config
+yarn add -D @hedgehoglab/eslint-config-nuxt
 
 or
 
-pnpm add -D @hedgehoglab/eslint-config
+pnpm add -D @hedgehoglab/eslint-config-nuxt
 
 or
 
-npm install -D @hedgehoglab/eslint-config
+npm install -D @hedgehoglab/eslint-config-nuxt
 ```
 
 Add the config to your `eslint.config.js`:
 
 ```js
-import hedgehogLab from '@hedgehoglab/eslint-config';
+import hedgehogLab from '@hedgehoglab/eslint-config-nuxt';
 
 export default hedgehogLab;
 ```
@@ -34,7 +34,7 @@ export default hedgehogLab;
 If using multiple config objects, or your own local rules:
 
 ```js
-import hedgehogLab from '@hedgehoglab/eslint-config';
+import hedgehogLab from '@hedgehoglab/eslint-config-nuxt';
 
 export default [
     // The combined config returns an array of all sub-configs 

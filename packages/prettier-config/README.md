@@ -1,49 +1,45 @@
 ![Fancy logo](../../assets/images/hhl-logo-light.png#gh-dark-mode-only)
 ![Fancy logo](../../assets/images/hhl-logo-dark.png#gh-light-mode-only)
 
-# @hedgehoglab/eslint-config
+# @hedgehoglab/prettier-config
 
 This package contains the standard ESlint configuration used on all hedgehog lab projects, both internally and for our clients.
-
-This package is meant to be used with eslint configs using the new [ESlint flat config](https://eslint.org/docs/latest/use/configure/migration-guide#start-using-flat-config-files) format.
 
 ## Usage
 
 Add the config to your project dependencies:
 
 ```bash 
-yarn add -D @hedgehoglab/eslint-config
+yarn add -D @hedgehoglab/prettier-config
 
 or
 
-pnpm add -D @hedgehoglab/eslint-config
+pnpm add -D @hedgehoglab/prettier-config
 
 or
 
-npm install -D @hedgehoglab/eslint-config
+npm install -D @hedgehoglab/prettier-config
 ```
 
-Add the config to your `eslint.config.js`:
+Add the config to your `.prettierrc.js`:
 
 ```js
-import hedgehogLab from '@hedgehoglab/eslint-config';
+import hedgehogLab from '@hedgehoglab/prettier-config';
 
 export default hedgehogLab;
 ```
 
-If using multiple config objects, or your own local rules:
+To override any rules locally:
 
 ```js
-import hedgehogLab from '@hedgehoglab/eslint-config';
+import hedgehogLab from '@hedgehoglab/prettier-config';
 
-export default [
-    // The combined config returns an array of all sub-configs 
-    // so needs to be spread into the exported aray of the 
-    // ESLint flat file format 
+export default {
     ...hedgehogLab,
     
-    // ...any other config objects
-];
+    semi: false,
+    // ...other config overrides
+};
 ```
 
 ## Contributing
