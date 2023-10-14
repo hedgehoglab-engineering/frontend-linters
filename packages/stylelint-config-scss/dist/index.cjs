@@ -23,7 +23,7 @@ __export(src_exports, {
   default: () => src_default
 });
 module.exports = __toCommonJS(src_exports);
-var src_default = {
+var config = {
   plugins: [
     "stylelint-scss"
   ],
@@ -76,6 +76,7 @@ var src_default = {
     ]
   }
 };
+var src_default = config;
 
 // fix-cjs-exports
 if (module.exports.default) {

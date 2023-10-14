@@ -1,6 +1,6 @@
-declare const _default: {
-    extends: string[];
-};
+import { Config } from 'stylelint';
 
-export { _default as default };
-export = _default
+declare const config: Config;
+
+export { config as default };
+export = config

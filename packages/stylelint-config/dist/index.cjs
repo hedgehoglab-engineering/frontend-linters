@@ -23,12 +23,13 @@ __export(src_exports, {
   default: () => src_default
 });
 module.exports = __toCommonJS(src_exports);
-var src_default = {
+var config = {
   extends: [
     "@hedgehoglab/stylelint-config-basic",
     "@hedgehoglab/stylelint-config-scss"
   ]
 };
+var src_default = config;
 
 // fix-cjs-exports
 if (module.exports.default) {

@@ -1,7 +1,8 @@
 // @ts-ignore
 import * as pluginImport from 'eslint-plugin-i';
+import { type Linter } from 'eslint';
 
-export default {
+const config: Linter.FlatConfig = {
     plugins: {
         import: pluginImport,
     },
@@ -180,3 +181,4 @@ export default {
     },
 };
 
+export default config;

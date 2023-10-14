@@ -38,10 +38,11 @@ var import_eslint_config_vue = __toESM(require("@hedgehoglab/eslint-config-vue")
 var import_eslint_config_nuxt = __toESM(require("@hedgehoglab/eslint-config-nuxt"), 1);
 var import_eslint_config_react = __toESM(require("@hedgehoglab/eslint-config-react"), 1);
 var import_eslint_config_ts = __toESM(require("@hedgehoglab/eslint-config-ts"), 1);
-var src_default = [
+var config = [
   import_eslint_config_basic.default,
   import_eslint_config_vue.default,
   import_eslint_config_nuxt.default,
   import_eslint_config_react.default,
   import_eslint_config_ts.default
 ];
+var src_default = config;

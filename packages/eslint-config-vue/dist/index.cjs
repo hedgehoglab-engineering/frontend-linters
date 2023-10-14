@@ -35,7 +35,7 @@ __export(src_exports, {
 module.exports = __toCommonJS(src_exports);
 var import_eslint_plugin_vue = __toESM(require("eslint-plugin-vue"), 1);
 var import_eslint_plugin_vuejs_accessibility = __toESM(require("eslint-plugin-vuejs-accessibility"), 1);
-var src_default = {
+var config = {
   plugins: {
     vue: import_eslint_plugin_vue.default,
     "vuejs-accessibility": import_eslint_plugin_vuejs_accessibility.default
@@ -528,3 +528,4 @@ var src_default = {
     ]
   }
 };
+var src_default = config;

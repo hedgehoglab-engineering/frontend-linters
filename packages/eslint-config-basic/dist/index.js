@@ -1,6 +1,6 @@
 // src/index.ts
 import * as pluginImport from "eslint-plugin-i";
-var src_default = {
+var config = {
   plugins: {
     import: pluginImport
   },
@@ -178,6 +178,7 @@ var src_default = {
     ]
   }
 };
+var src_default = config;
 export {
   src_default as default
 };

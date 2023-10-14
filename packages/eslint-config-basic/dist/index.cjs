@@ -34,7 +34,7 @@ __export(src_exports, {
 });
 module.exports = __toCommonJS(src_exports);
 var pluginImport = __toESM(require("eslint-plugin-i"), 1);
-var src_default = {
+var config = {
   plugins: {
     import: pluginImport
   },
@@ -212,3 +212,4 @@ var src_default = {
     ]
   }
 };
+var src_default = config;

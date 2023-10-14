@@ -1,7 +1,7 @@
 // src/index.ts
 import pluginVue from "eslint-plugin-vue";
 import pluginVueAccessibility from "eslint-plugin-vuejs-accessibility";
-var src_default = {
+var config = {
   plugins: {
     vue: pluginVue,
     "vuejs-accessibility": pluginVueAccessibility
@@ -494,6 +494,7 @@ var src_default = {
     ]
   }
 };
+var src_default = config;
 export {
   src_default as default
 };

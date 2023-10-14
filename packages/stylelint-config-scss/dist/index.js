@@ -1,5 +1,5 @@
 // src/index.ts
-var src_default = {
+var config = {
   plugins: [
     "stylelint-scss"
   ],
@@ -52,6 +52,7 @@ var src_default = {
     ]
   }
 };
+var src_default = config;
 export {
   src_default as default
 };

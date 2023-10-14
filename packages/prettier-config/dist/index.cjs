@@ -23,14 +23,14 @@ __export(src_exports, {
   default: () => src_default
 });
 module.exports = __toCommonJS(src_exports);
-var src_default = {
+var config = {
   semi: false,
   singleQuote: true,
   arrowParens: "avoid",
   bracketSpacing: true,
   htmlWhitespaceSensitivity: "css",
   insertPragma: false,
-  jsxBracketSameLine: false,
+  bracketSameLine: false,
   jsxSingleQuote: false,
   printWidth: 80,
   proseWrap: "preserve",
@@ -39,14 +39,15 @@ var src_default = {
   trailingComma: "all",
   useTabs: false,
   rangeStart: 0,
-  bracketSameLine: false,
-  endOfLine: "auto",
-  importOrder: [
-    "^@core/(.*)$",
-    "^@server/(.*)$",
-    "^@ui/(.*)$",
-    "^[./]"
-  ],
-  importOrderSeparation: true,
-  importOrderSortSpecifiers: true
+  endOfLine: "auto"
+  // TODO: Figure out how this is configured in the next template
+  // importOrder: [
+  //     '^@core/(.*)$',
+  //     '^@server/(.*)$',
+  //     '^@ui/(.*)$',
+  //     '^[./]',
+  // ],
+  // importOrderSeparation: true,
+  // importOrderSortSpecifiers: true,
 };
+var src_default = config;

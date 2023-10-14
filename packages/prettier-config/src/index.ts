@@ -1,11 +1,13 @@
-export default {
+import { type Options } from 'prettier';
+
+const config: Options = {
     semi: false,
     singleQuote: true,
     arrowParens: 'avoid',
     bracketSpacing: true,
     htmlWhitespaceSensitivity: 'css',
     insertPragma: false,
-    jsxBracketSameLine: false,
+    bracketSameLine: false,
     jsxSingleQuote: false,
     printWidth: 80,
     proseWrap: 'preserve',
@@ -14,14 +16,16 @@ export default {
     trailingComma: 'all',
     useTabs: false,
     rangeStart: 0,
-    bracketSameLine: false,
     endOfLine: 'auto',
-    importOrder: [
-        '^@core/(.*)$',
-        '^@server/(.*)$',
-        '^@ui/(.*)$',
-        '^[./]',
-    ],
-    importOrderSeparation: true,
-    importOrderSortSpecifiers: true,
+    // TODO: Figure out how this is configured in the next template
+    // importOrder: [
+    //     '^@core/(.*)$',
+    //     '^@server/(.*)$',
+    //     '^@ui/(.*)$',
+    //     '^[./]',
+    // ],
+    // importOrderSeparation: true,
+    // importOrderSortSpecifiers: true,
 };
+
+export default config;

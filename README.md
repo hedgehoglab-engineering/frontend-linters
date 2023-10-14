@@ -5,7 +5,7 @@
 
 Monorepo for managing all the linter configs used on projects within the hedgehog labs organisation.
 
-## Eslint
+### Eslint
 
 - [@hedgehoglab/eslint-config](./packages/eslint-config)
 - [@hedgehoglab/eslint-config-basic](./packages/eslint-config-basic)
@@ -14,14 +14,20 @@ Monorepo for managing all the linter configs used on projects within the hedgeho
 - [@hedgehoglab/eslint-config-nuxt](./packages/eslint-config-nuxt)
 - [@hedgehoglab/eslint-config-react](./packages/eslint-config-react)
 
-## Prettier
+### Prettier
 
 - [@hedgehoglab/prettier-config](./packages/prettier-config)
 
-## Stylelint
+### Stylelint
 
 - [@hedgehoglab/stylelint-config](./packages/stylelint-config)
 - [@hedgehoglab/stylelint-config-basic](./packages/stylelint-config-basic)
 - [@hedgehoglab/stylelint-config-scss](./packages/stylelint-config-scss)
 - [@hedgehoglab/stylelint-config-vue](./packages/stylelint-config-vue)
 
+
+## Contributing
+
+Please bear in mind this is a public repository.
+
+For instructions on how to contribute code to this project, please see the [CONTRIBUTING.md](./CONTRIBUTING.md).

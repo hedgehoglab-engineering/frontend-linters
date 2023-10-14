@@ -2,8 +2,9 @@
 import pluginVue from 'eslint-plugin-vue';
 // @ts-ignore
 import pluginVueAccessibility from 'eslint-plugin-vuejs-accessibility';
+import { Linter } from 'eslint';
 
-export default {
+const config: Linter.FlatConfig = {
     plugins: {
         vue: pluginVue,
         'vuejs-accessibility': pluginVueAccessibility,
@@ -497,4 +498,7 @@ export default {
         ],
     },
 };
+
+export default config;
+
 

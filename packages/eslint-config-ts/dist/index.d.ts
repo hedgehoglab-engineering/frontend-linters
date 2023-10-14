@@ -1,3 +1,5 @@
-declare const _default: {};
+import { Linter } from 'eslint';
 
-export { _default as default };
+declare const config: Linter.FlatConfig;
+
+export { config as default };

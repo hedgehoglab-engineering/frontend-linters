@@ -1,5 +1,6 @@
 // src/index.ts
-var src_default = {};
+var config = {};
+var src_default = config;
 export {
   src_default as default
 };

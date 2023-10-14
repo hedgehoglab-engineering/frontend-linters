@@ -1,4 +1,6 @@
-export default {
+import { type Config } from 'stylelint';
+
+const config: Config = {
     rules: {
         'annotation-no-unknown': null,
         'at-rule-no-unknown': null,
@@ -152,3 +154,5 @@ export default {
         ],
     },
 };
+
+export default config;

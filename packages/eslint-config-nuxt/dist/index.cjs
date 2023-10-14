@@ -23,4 +23,5 @@ __export(src_exports, {
   default: () => src_default
 });
 module.exports = __toCommonJS(src_exports);
-var src_default = {};
+var config = {};
+var src_default = config;

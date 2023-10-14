@@ -1,4 +1,6 @@
-export default {
+import { type Config } from 'stylelint';
+
+const config: Config = {
     plugins: [
         'stylelint-scss',
     ],
@@ -51,3 +53,5 @@ export default {
         ],
     }
 };
+
+export default config;
