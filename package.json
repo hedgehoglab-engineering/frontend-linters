@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Basic linter rules for the hedgehog lab org",
   "license": "ISC",
+  "private": true,
   "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
   "type": "module",
   "scripts": {
