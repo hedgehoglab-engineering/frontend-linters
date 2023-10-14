@@ -31,6 +31,7 @@ try {
 
     packageJson.version = pkg.version;
     packageJson.name = `@hedgehoglab/${ packageName }`;
+    packageJson.repository = `https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/${ packageName }`;
 
     writeFileSync(
         resolve(packageDirectory, 'package.json'),
