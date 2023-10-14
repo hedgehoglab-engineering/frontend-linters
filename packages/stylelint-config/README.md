@@ -1,5 +1,5 @@
-![Fancy logo](../../assets/images/hhl-logo-light.png#gh-dark-mode-only)
-![Fancy logo](../../assets/images/hhl-logo-dark.png#gh-light-mode-only)
+![hedgehog lab logo](https://github.com/hedgehoglab-engineering/frontend-linters/raw/main/assets/images/hhl-logo-light.png#gh-dark-mode-only)
+![hedgehog lab logo](https://github.com/hedgehoglab-engineering/frontend-linters/raw/main/assets/images/hhl-logo-dark.png#gh-light-mode-only)
 
 # @hedgehoglab/stylelint-config
 
