@@ -25,21 +25,10 @@ npm install -D @hedgehoglab/eslint-config-vue
 Add the config to your `eslint.config.js`:
 
 ```js
-import hedgehogLab from '@hedgehoglab/eslint-config-vue';
-
-export default hedgehogLab;
-```
-
-If using multiple config objects, or your own local rules:
-
-```js
-import hedgehogLab from '@hedgehoglab/eslint-config-vue';
+import hedgehogLabVue from '@hedgehoglab/eslint-config-vue';
 
 export default [
-    // The combined config returns an array of all sub-configs 
-    // so needs to be spread into the exported aray of the 
-    // ESLint flat file format 
-    ...hedgehogLab,
+    hedgehogLabVue,
     
     // ...any other config objects
 ];

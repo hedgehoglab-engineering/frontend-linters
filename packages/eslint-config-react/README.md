@@ -25,21 +25,10 @@ npm install -D @hedgehoglab/eslint-config-react
 Add the config to your `eslint.config.js`:
 
 ```js
-import hedgehogLab from '@hedgehoglab/eslint-config-react';
-
-export default hedgehogLab;
-```
-
-If using multiple config objects, or your own local rules:
-
-```js
-import hedgehogLab from '@hedgehoglab/eslint-config-react';
+import hedgehogLabReact from '@hedgehoglab/eslint-config-react';
 
 export default [
-    // The combined config returns an array of all sub-configs 
-    // so needs to be spread into the exported aray of the 
-    // ESLint flat file format 
-    ...hedgehogLab,
+    hedgehogLabReact,
     
     // ...any other config objects
 ];
