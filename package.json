@@ -13,7 +13,7 @@
     "lint:stylelint": "stylelint './**/*.{scss,vue}'",
     "make:package": "node --no-warnings=ExperimentalWarning scripts/make-package/index.js",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
+    "release": "pnpm sort-package-json && pnpm build && bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
     "sort-package-json": "sort-package-json package.json packages/*/package.json",
     "test": "pnpm -r run test"
   },
