@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/stylelint-config-vue",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/stylelint-config-vue",
