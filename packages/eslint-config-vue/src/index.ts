@@ -17,7 +17,7 @@ const config: Linter.FlatConfig = {
         'vue/attributes-order': [
             1,
             {
-                'order': [
+                order: [
                     'DEFINITION',
                     'LIST_RENDERING',
                     'CONDITIONALS',
@@ -30,7 +30,7 @@ const config: Linter.FlatConfig = {
                     'EVENTS',
                     'OTHER_DIRECTIVES',
                 ],
-                'alphabetical': false,
+                alphabetical: false,
             },
         ],
         'vue/component-definition-name-casing': [
@@ -41,7 +41,7 @@ const config: Linter.FlatConfig = {
             1,
             'kebab-case',
             {
-                'registeredComponentsOnly': false,
+                registeredComponentsOnly: false,
             },
         ],
         'vue/eqeqeq': [
@@ -50,23 +50,23 @@ const config: Linter.FlatConfig = {
         'vue/html-closing-bracket-newline': [
             1,
             {
-                'singleline': 'never',
-                'multiline': 'always',
+                singleline: 'never',
+                multiline: 'always',
             },
         ],
         'vue/html-closing-bracket-spacing': [
             1,
             {
-                'startTag': 'never',
-                'endTag': 'never',
-                'selfClosingTag': 'always',
+                startTag: 'never',
+                endTag: 'never',
+                selfClosingTag: 'always',
             },
         ],
         'vue/html-indent': [
             1,
             4,
             {
-                'baseIndent': 1,
+                baseIndent: 1,
             },
         ],
         'vue/html-quotes': [
@@ -76,30 +76,30 @@ const config: Linter.FlatConfig = {
         'vue/key-spacing': [
             1,
             {
-                'beforeColon': false,
-                'afterColon': true,
-                'mode': 'strict',
+                beforeColon: false,
+                afterColon: true,
+                mode: 'strict',
             },
         ],
         'vue/match-component-file-name': [
             1,
             {
-                'extensions': [
+                extensions: [
                     'jsx',
                     'js',
                     'vue',
                 ],
-                'shouldMatchCase': false,
+                shouldMatchCase: false,
             },
         ],
         'vue/max-attributes-per-line': [
             1,
             {
-                'singleline': {
-                    'max': 3,
+                singleline: {
+                    max: 3,
                 },
-                'multiline': {
-                    'max': 1,
+                multiline: {
+                    max: 1,
                 },
             },
         ],
@@ -110,7 +110,7 @@ const config: Linter.FlatConfig = {
         'vue/no-dupe-keys': [
             1,
             {
-                'groups': [],
+                groups: [],
             },
         ],
         'vue/no-duplicate-attributes': [
@@ -144,7 +144,7 @@ const config: Linter.FlatConfig = {
         'vue/order-in-components': [
             1,
             {
-                'order': [
+                order: [
                     [
                         'name',
                         'delimiters',
@@ -186,15 +186,15 @@ const config: Linter.FlatConfig = {
         'vue/return-in-computed-property': [
             1,
             {
-                'treatUndefinedAsUnspecified': true,
+                treatUndefinedAsUnspecified: true,
             },
         ],
         'vue/script-indent': [
             1,
             4,
             {
-                'baseIndent': 1,
-                'switchCase': 1,
+                baseIndent: 1,
+                switchCase: 1,
             },
         ],
         'vue/this-in-template': [

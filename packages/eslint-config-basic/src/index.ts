@@ -14,15 +14,15 @@ const config: Linter.FlatConfig = {
         'arrow-spacing': [
             1,
             {
-                'before': true,
-                'after': true,
+                before: true,
+                after: true,
             },
         ],
         'comma-dangle': [
             1,
             'always-multiline',
         ],
-        'curly': [
+        curly: [
             1,
         ],
         'dot-location': [
@@ -36,17 +36,17 @@ const config: Linter.FlatConfig = {
             1,
             'always',
         ],
-        'eqeqeq': [
+        eqeqeq: [
             1,
         ],
-        'indent': [
+        indent: [
             1,
             4,
             {
-                'SwitchCase': 1,
-                'flatTernaryExpressions': false,
-                'offsetTernaryExpressions': false,
-                'ignoreComments': false,
+                SwitchCase: 1,
+                flatTernaryExpressions: false,
+                offsetTernaryExpressions: false,
+                ignoreComments: false,
             },
         ],
         'key-spacing': [
@@ -70,7 +70,7 @@ const config: Linter.FlatConfig = {
         'no-else-return': [
             1,
             {
-                'allowElseIf': false,
+                allowElseIf: false,
             },
         ],
         'no-empty': [
@@ -88,10 +88,10 @@ const config: Linter.FlatConfig = {
         'no-implicit-coercion': [
             1,
             {
-                'boolean': true,
-                'number': true,
-                'string': true,
-                'disallowTemplateShorthand': false,
+                boolean: true,
+                number: true,
+                string: true,
+                disallowTemplateShorthand: false,
             },
         ],
         'no-lonely-if': [
@@ -103,9 +103,9 @@ const config: Linter.FlatConfig = {
         'no-multiple-empty-lines': [
             1,
             {
-                'max': 1,
-                'maxEOF': 1,
-                'maxBOF': 1,
+                max: 1,
+                maxEOF: 1,
+                maxBOF: 1,
             },
         ],
         'no-restricted-imports': [
@@ -157,9 +157,9 @@ const config: Linter.FlatConfig = {
         'space-before-function-paren': [
             1,
             {
-                'anonymous': 'never',
-                'named': 'never',
-                'asyncArrow': 'always',
+                anonymous: 'never',
+                named: 'never',
+                asyncArrow: 'always',
             },
         ],
         'template-curly-spacing': [
@@ -170,13 +170,16 @@ const config: Linter.FlatConfig = {
             1,
             'never',
             {
-                'exceptRange': true,
-                'onlyEquality': false,
+                exceptRange: true,
+                onlyEquality: false,
             },
         ],
         'import/extensions': [
             1,
-            'ignorePackages',
+            'always',
+            {
+                ignorePackages: true,
+            },
         ],
     },
 };
