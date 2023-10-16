@@ -176,7 +176,7 @@ const config: Linter.FlatConfig = {
         ],
         'import/extensions': [
             1,
-            'always',
+            'ignorePackages',
         ],
     },
 };
