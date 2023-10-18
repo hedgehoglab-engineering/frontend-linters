@@ -1,0 +1,97 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/eslint-config"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/eslint-config-basic"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/eslint-config-nuxt"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/eslint-config-react"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/eslint-config-ts"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/eslint-config-vue"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/prettier-config"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/stylelint-config"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/stylelint-config-basic"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/stylelint-config-scss"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
+
+  - package-ecosystem: npm
+    directory: "/packages/stylelint-config-vue"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    reviewers:
+      - samturrell
