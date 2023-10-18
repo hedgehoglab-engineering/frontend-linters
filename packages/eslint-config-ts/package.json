@@ -1,10 +1,12 @@
 {
   "name": "@hedgehoglab/eslint-config-ts",
   "version": "0.1.7",
-  "description": "Basic eslint config rules for the hedgehog lab org",
+  "description": "Typescript eslint config rules for the hedgehog lab org",
   "keywords": [
     "eslint-config",
-    "hedgehoglab"
+    "eslint",
+    "hedgehoglab",
+    "typescript"
   ],
   "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/eslint-config-ts",
   "license": "ISC",
@@ -22,7 +24,8 @@
     "./dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --clean --dts"
+    "build": "tsup src/index.ts --format esm,cjs --clean --dts",
+    "test": "tsc --noEmit"
   },
   "devDependencies": {
     "tsup": "^7.2.0",

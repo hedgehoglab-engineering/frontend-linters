@@ -1,8 +1,13 @@
 {
   "name": "@hedgehoglab/stylelint-config-scss",
   "version": "0.1.7",
-  "description": "",
-  "keywords": [],
+  "description": "SCSS specific stylelint config rules for the hedgehog lab org",
+  "keywords": [
+    "stylelint-config",
+    "stylelint",
+    "hedgehoglab",
+    "scss"
+  ],
   "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/stylelint-config-scss",
   "license": "ISC",
   "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
@@ -19,7 +24,8 @@
     "./dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --clean --dts && fix-tsup-cjs"
+    "build": "tsup src/index.ts --format esm,cjs --clean --dts && fix-tsup-cjs",
+    "test": "tsc --noEmit"
   },
   "dependencies": {
     "stylelint": "^15.11.0",

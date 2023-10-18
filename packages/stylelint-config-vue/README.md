@@ -4,6 +4,9 @@
 
 This package contains the standard Stylelint configuration used on all hedgehog lab projects, both internally and for our clients.
 
+> [!NOTE]  
+> This package contains Vue-specific rules, and not the basic rules. Please pull in the basic config alongside this one as needed.
+
 ## Usage
 
 Add the config to your project dependencies:
