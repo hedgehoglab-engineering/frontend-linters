@@ -15,8 +15,8 @@ importers:
         specifier: workspace:^
         version: link:packages/stylelint-config
       '@types/eslint':
-        specifier: ^8.44.4
-        version: 8.44.4
+        specifier: ^8.44.5
+        version: 8.44.5
       bumpp:
         specifier: ^9.2.0
         version: 9.2.0
@@ -559,8 +559,8 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  /@types/eslint@8.44.4:
-    resolution: {integrity: sha512-lOzjyfY/D9QR4hY9oblZ76B90MYTB3RrQ4z2vBIJKj9ROCRqdkYl2gSUx1x1a4IWPjKJZLL4Aw1Zfay7eMnmnA==}
+  /@types/eslint@8.44.5:
+    resolution: {integrity: sha512-Ol2eio8LtD/tGM4Ga7Jb83NuFwEv3NqvssSlifXL9xuFpSyQZw0ecmm2Kux6iU0KxQmp95hlPmGCzGJ0TCFeRA==}
     dependencies:
       '@types/estree': 1.0.2
       '@types/json-schema': 7.0.13
