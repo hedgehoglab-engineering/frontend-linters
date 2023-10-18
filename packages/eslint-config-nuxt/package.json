@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/eslint-config-nuxt",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Nuxt eslint config rules for the hedgehog lab org",
   "keywords": [
     "eslint-config",

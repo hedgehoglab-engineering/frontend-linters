@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/prettier-config",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Prettier config rules for the hedgehog lab org",
   "keywords": [
     "prettier-config",
