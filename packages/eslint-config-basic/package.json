@@ -4,6 +4,7 @@
   "description": "Basic eslint config rules for the hedgehog lab org",
   "keywords": [
     "eslint-config",
+    "eslint",
     "hedgehoglab"
   ],
   "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/eslint-config-basic",

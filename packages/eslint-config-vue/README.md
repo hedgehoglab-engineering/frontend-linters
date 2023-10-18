@@ -6,6 +6,9 @@ This package contains the standard ESlint configuration used on all hedgehog lab
 
 This package is meant to be used with eslint configs using the new [ESlint flat config](https://eslint.org/docs/latest/use/configure/migration-guide#start-using-flat-config-files) format.
 
+> [!NOTE]  
+> This package contains Vue-specific rules, and not the basic rules. Please pull in the basic config alongside this one as needed.
+
 ## Usage
 
 Add the config to your project dependencies:

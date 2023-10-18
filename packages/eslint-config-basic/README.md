@@ -2,9 +2,12 @@
 
 # @hedgehoglab/eslint-config-basic
 
-This package contains the standard ESlint configuration used on all hedgehog lab projects, both internally and for our clients.
+This package contains the standard ESlint configuration used on all hedgehog lab projects, both internally and for our clients. It contains
 
 This package is meant to be used with eslint configs using the new [ESlint flat config](https://eslint.org/docs/latest/use/configure/migration-guide#start-using-flat-config-files) format.
+
+> [!NOTE]  
+> This package contains basic rules, and nothing framework specific. Please pull in the framework specific configs alongside this one as needed.
 
 ## Usage
 

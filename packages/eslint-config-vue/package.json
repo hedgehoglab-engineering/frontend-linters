@@ -1,10 +1,12 @@
 {
   "name": "@hedgehoglab/eslint-config-vue",
   "version": "0.1.7",
-  "description": "Basic eslint config rules for the hedgehog lab org",
+  "description": "Vue eslint config rules for the hedgehog lab org",
   "keywords": [
     "eslint-config",
-    "hedgehoglab"
+    "eslint",
+    "hedgehoglab",
+    "vue"
   ],
   "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/eslint-config-vue",
   "license": "ISC",

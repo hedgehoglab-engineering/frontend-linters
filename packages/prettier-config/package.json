@@ -1,8 +1,12 @@
 {
   "name": "@hedgehoglab/prettier-config",
   "version": "0.1.7",
-  "description": "",
-  "keywords": [],
+  "description": "Prettier config rules for the hedgehog lab org",
+  "keywords": [
+    "prettier-config",
+    "prettier",
+    "hedgehoglab"
+  ],
   "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/prettier-config",
   "license": "ISC",
   "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",

@@ -7,6 +7,9 @@ Monorepo for managing all the linter configs used on projects within the hedgeho
 
 ### Eslint
 
+> [!NOTE]  
+> The `@hedgehoglab/eslint-config` package pulls in all of the framework specific configs, so you should only need to pull in the specific config packages if there are incompatibilities.
+
 - [@hedgehoglab/eslint-config](./packages/eslint-config)
 - [@hedgehoglab/eslint-config-basic](./packages/eslint-config-basic)
 - [@hedgehoglab/eslint-config-ts](./packages/eslint-config-ts)
@@ -19,6 +22,9 @@ Monorepo for managing all the linter configs used on projects within the hedgeho
 - [@hedgehoglab/prettier-config](./packages/prettier-config)
 
 ### Stylelint
+
+> [!NOTE]  
+> The `@hedgehoglab/stylelint-config` package pulls in all of the framework/pre-processor specific configs, so you should only need to pull in the specific config packages if there are incompatibilities.
 
 - [@hedgehoglab/stylelint-config](./packages/stylelint-config)
 - [@hedgehoglab/stylelint-config-basic](./packages/stylelint-config-basic)

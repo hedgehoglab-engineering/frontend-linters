@@ -6,6 +6,9 @@ This package contains the standard ESlint configuration used on all hedgehog lab
 
 This package is meant to be used with eslint configs using the new [ESlint flat config](https://eslint.org/docs/latest/use/configure/migration-guide#start-using-flat-config-files) format.
 
+> [!NOTE]  
+> This package contains all the configs of the org, including all framework specific configs. Framework specific configs do not need to be pulled in alongside this one.
+
 ## Usage
 
 Add the config to your project dependencies:

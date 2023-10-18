@@ -4,6 +4,9 @@
 
 This package contains the standard Stylelint configuration used on all hedgehog lab projects, both internally and for our clients.
 
+> [!NOTE]  
+> This package contains basic rules, and nothing pre-processor specific. Please pull in the pre-processor specific configs alongside this one as needed.
+
 ## Usage
 
 Add the config to your project dependencies:

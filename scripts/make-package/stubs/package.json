@@ -1,12 +1,14 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "keywords": [],
+  "name": "Will autogenerate",
+  "version": "Will autogenerate",
+  "description": "Will autogenerate",
+  "keywords": [
+    "hedgehoglab"
+  ],
+  "homepage": "Will autogenerate",
   "license": "ISC",
   "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
   "type": "module",
-  "homepage": "",
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -19,7 +21,8 @@
     "./dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --clean --dts && fix-tsup-cjs"
+    "build": "tsup src/index.ts --format esm,cjs --clean --dts && fix-tsup-cjs",
+    "test": "tsc --noEmit"
   },
   "devDependencies": {
     "fix-tsup-cjs": "^1.2.0",
