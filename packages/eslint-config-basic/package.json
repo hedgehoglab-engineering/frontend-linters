@@ -22,7 +22,8 @@
     "./dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --clean --dts"
+    "build": "tsup src/index.ts --format esm,cjs --clean --dts",
+    "test": "tsc --noEmit"
   },
   "dependencies": {
     "eslint-plugin-i": "^2.28.1"

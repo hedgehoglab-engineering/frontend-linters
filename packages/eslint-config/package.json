@@ -22,7 +22,8 @@
     "./dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --clean --dts"
+    "build": "tsup src/index.ts --format esm,cjs --clean --dts",
+    "test": "tsc --noEmit"
   },
   "dependencies": {
     "@hedgehoglab/eslint-config-basic": "workspace:*",

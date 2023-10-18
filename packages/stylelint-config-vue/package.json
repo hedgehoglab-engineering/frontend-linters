@@ -19,7 +19,8 @@
     "./dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --clean --dts && fix-tsup-cjs"
+    "build": "tsup src/index.ts --format esm,cjs --clean --dts && fix-tsup-cjs",
+    "test": "tsc --noEmit"
   },
   "dependencies": {
     "stylelint-config-html": "^1.1.0",
