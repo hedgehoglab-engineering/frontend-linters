@@ -22,7 +22,7 @@
     "build": "tsup src/index.ts --format esm,cjs --clean --dts && fix-tsup-cjs"
   },
   "dependencies": {
-    "stylelint": "^15.10.3",
+    "stylelint": "^15.11.0",
     "stylelint-config-recommended-scss": "^13.0.0",
     "stylelint-scss": "^5.2.1"
   },
