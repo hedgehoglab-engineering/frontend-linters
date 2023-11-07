@@ -30,7 +30,7 @@
   "dependencies": {
     "stylelint": "^15.11.0",
     "stylelint-config-recommended-scss": "^13.1.0",
-    "stylelint-scss": "^5.3.0"
+    "stylelint-scss": "^5.3.1"
   },
   "devDependencies": {
     "fix-tsup-cjs": "^1.2.0",
