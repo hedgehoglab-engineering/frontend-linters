@@ -31,7 +31,7 @@ importers:
         version: 2.6.0
       stylelint:
         specifier: ^15.11.0
-        version: 15.11.0(typescript@5.2.2)
+        version: 15.11.0(typescript@5.3.2)
 
   packages/eslint-config:
     dependencies:
@@ -53,10 +53,10 @@ importers:
     devDependencies:
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/eslint-config-basic:
     dependencies:
@@ -66,37 +66,37 @@ importers:
     devDependencies:
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/eslint-config-nuxt:
     devDependencies:
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/eslint-config-react:
     devDependencies:
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/eslint-config-ts:
     devDependencies:
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/eslint-config-vue:
     dependencies:
@@ -109,19 +109,19 @@ importers:
     devDependencies:
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/prettier-config:
     devDependencies:
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/stylelint-config:
     dependencies:
@@ -133,17 +133,17 @@ importers:
         version: link:../stylelint-config-scss
       stylelint:
         specifier: ^15.11.0
-        version: 15.11.0(typescript@5.2.2)
+        version: 15.11.0(typescript@5.3.2)
     devDependencies:
       fix-tsup-cjs:
         specifier: ^1.2.0
         version: 1.2.0
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/stylelint-config-basic:
     devDependencies:
@@ -152,16 +152,16 @@ importers:
         version: 1.2.0
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/stylelint-config-scss:
     dependencies:
       stylelint:
         specifier: ^15.11.0
-        version: 15.11.0(typescript@5.2.2)
+        version: 15.11.0(typescript@5.3.2)
       stylelint-config-recommended-scss:
         specifier: ^13.1.0
         version: 13.1.0(postcss@8.4.31)(stylelint@15.11.0)
@@ -174,10 +174,10 @@ importers:
         version: 1.2.0
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
   packages/stylelint-config-vue:
     dependencies:
@@ -193,10 +193,10 @@ importers:
         version: 1.2.0
       tsup:
         specifier: ^8.0.0
-        version: 8.0.0(postcss@8.4.31)(typescript@5.2.2)
+        version: 8.0.0(postcss@8.4.31)(typescript@5.3.2)
       typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.3.2
+        version: 5.3.2
 
 packages:
 
@@ -928,7 +928,7 @@ packages:
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  /cosmiconfig@8.3.6(typescript@5.2.2):
+  /cosmiconfig@8.3.6(typescript@5.3.2):
     resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -941,7 +941,7 @@ packages:
       js-yaml: 4.1.0
       parse-json: 5.2.0
       path-type: 4.0.0
-      typescript: 5.2.2
+      typescript: 5.3.2
 
   /cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
@@ -2472,7 +2472,7 @@ packages:
       stylelint: '>=14.0.0'
     dependencies:
       postcss-html: 1.5.0
-      stylelint: 15.11.0(typescript@5.2.2)
+      stylelint: 15.11.0(typescript@5.3.2)
     dev: false
 
   /stylelint-config-recommended-scss@13.1.0(postcss@8.4.31)(stylelint@15.11.0):
@@ -2486,7 +2486,7 @@ packages:
     dependencies:
       postcss: 8.4.31
       postcss-scss: 4.0.9(postcss@8.4.31)
-      stylelint: 15.11.0(typescript@5.2.2)
+      stylelint: 15.11.0(typescript@5.3.2)
       stylelint-config-recommended: 13.0.0(stylelint@15.11.0)
       stylelint-scss: 5.3.1(stylelint@15.11.0)
     dev: false
@@ -2500,7 +2500,7 @@ packages:
     dependencies:
       postcss-html: 1.5.0
       semver: 7.5.4
-      stylelint: 15.11.0(typescript@5.2.2)
+      stylelint: 15.11.0(typescript@5.3.2)
       stylelint-config-html: 1.1.0(postcss-html@1.5.0)(stylelint@15.11.0)
       stylelint-config-recommended: 13.0.0(stylelint@15.11.0)
     dev: false
@@ -2511,7 +2511,7 @@ packages:
     peerDependencies:
       stylelint: ^15.10.0
     dependencies:
-      stylelint: 15.11.0(typescript@5.2.2)
+      stylelint: 15.11.0(typescript@5.3.2)
     dev: false
 
   /stylelint-scss@5.3.1(stylelint@15.11.0):
@@ -2524,10 +2524,10 @@ packages:
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
-      stylelint: 15.11.0(typescript@5.2.2)
+      stylelint: 15.11.0(typescript@5.3.2)
     dev: false
 
-  /stylelint@15.11.0(typescript@5.2.2):
+  /stylelint@15.11.0(typescript@5.3.2):
     resolution: {integrity: sha512-78O4c6IswZ9TzpcIiQJIN49K3qNoXTM8zEJzhaTE/xRTCZswaovSEVIa/uwbOltZrk16X4jAxjaOhzz/hTm1Kw==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
@@ -2538,7 +2538,7 @@ packages:
       '@csstools/selector-specificity': 3.0.0(postcss-selector-parser@6.0.13)
       balanced-match: 2.0.0
       colord: 2.9.3
-      cosmiconfig: 8.3.6(typescript@5.2.2)
+      cosmiconfig: 8.3.6(typescript@5.3.2)
       css-functions-list: 3.2.1
       css-tree: 2.3.1
       debug: 4.3.4
@@ -2680,7 +2680,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup@8.0.0(postcss@8.4.31)(typescript@5.2.2):
+  /tsup@8.0.0(postcss@8.4.31)(typescript@5.3.2):
     resolution: {integrity: sha512-9rOGn8LsFn2iAg2pCB1jnH7ygVuGjlzIomjw0jKXUxAii3iL5cXgm0jZMPKfFH1bSAjQovJ1DUVPSw+oDuIu8A==}
     engines: {node: '>=18'}
     hasBin: true
@@ -2714,7 +2714,7 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.34.0
       tree-kill: 1.2.2
-      typescript: 5.2.2
+      typescript: 5.3.2
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -2749,8 +2749,8 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /typescript@5.2.2:
-    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+  /typescript@5.3.2:
+    resolution: {integrity: sha512-6l+RyNy7oAHDfxC4FzSJcz9vnjTKxrLpDG5M2Vu4SHRVNg6xzqZp6LYSR9zjqQTu8DU/f5xwxUdADOkbrIX2gQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
