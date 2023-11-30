@@ -20,7 +20,7 @@
   "devDependencies": {
     "@hedgehoglab/eslint-config": "workspace:^",
     "@hedgehoglab/stylelint-config": "workspace:^",
-    "@types/eslint": "^8.44.7",
+    "@types/eslint": "^8.44.8",
     "bumpp": "^9.2.0",
     "eslint": "^8.54.0",
     "prettier": "^3.1.0",
