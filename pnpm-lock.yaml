@@ -131,9 +131,6 @@ importers:
       '@hedgehoglab/stylelint-config-scss':
         specifier: workspace:*
         version: link:../stylelint-config-scss
-      stylelint:
-        specifier: ^15.11.0
-        version: 15.11.0(typescript@5.3.3)
     devDependencies:
       fix-tsup-cjs:
         specifier: ^1.2.0
