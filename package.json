@@ -25,6 +25,6 @@
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "sort-package-json": "^2.8.0",
-    "stylelint": "^15.11.0"
+    "stylelint": "^16.2.1"
   }
 }

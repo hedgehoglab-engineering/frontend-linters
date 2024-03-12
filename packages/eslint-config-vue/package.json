@@ -28,7 +28,7 @@
     "test": "tsc --noEmit"
   },
   "dependencies": {
-    "eslint-plugin-vue": "^9.22.0",
+    "eslint-plugin-vue": "^9.23.0",
     "eslint-plugin-vuejs-accessibility": "^2.2.1"
   },
   "devDependencies": {
