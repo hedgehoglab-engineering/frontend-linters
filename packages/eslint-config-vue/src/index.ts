@@ -7,7 +7,7 @@ import { Linter } from 'eslint';
 const config: Linter.FlatConfig = {
     plugins: {
         vue: pluginVue,
-        'vuejs-accessibility': pluginVueAccessibility,
+        'vuejs-accessibility': pluginVueAccessibility.configs["flat/recommended"][1].plugins['vuejs-accessibility'],
     },
     rules: {
         'vue/attribute-hyphenation': [
