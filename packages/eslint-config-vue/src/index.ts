@@ -10,6 +10,9 @@ const config: Linter.FlatConfig = {
         'vuejs-accessibility': pluginVueAccessibility.configs["flat/recommended"][1].plugins['vuejs-accessibility'],
     },
     rules: {
+        'vue/no-console': [
+            1,
+        ],
         'vue/attribute-hyphenation': [
             1,
             'always',

@@ -1,9 +1,8 @@
 import { type Options } from 'prettier';
 
 const config: Options = {
-    semi: false,
     singleQuote: true,
-    arrowParens: 'avoid',
+    arrowParens: 'always',
     bracketSpacing: true,
     htmlWhitespaceSensitivity: 'css',
     insertPragma: false,
@@ -12,11 +11,13 @@ const config: Options = {
     printWidth: 80,
     proseWrap: 'preserve',
     requirePragma: false,
-    tabWidth: 2,
+    tabWidth: 4,
     trailingComma: 'all',
     useTabs: false,
     rangeStart: 0,
     endOfLine: 'auto',
+    semi: true,
+    vueIndentScriptAndStyle: true,
     // TODO: Figure out how this is configured in the next template
     // importOrder: [
     //     '^@core/(.*)$',
