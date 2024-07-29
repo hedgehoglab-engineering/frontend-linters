@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/eslint-config-vue",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Vue eslint config rules for the hedgehog lab org",
   "keywords": [
     "eslint-config",
