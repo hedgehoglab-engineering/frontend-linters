@@ -17,7 +17,7 @@ const config: Config = {
         'scss/load-no-partial-leading-underscore': [
             true,
         ],
-        'scss/at-import-partial-extension': [
+        'scss/load-partial-extension': [
             'never',
         ],
         'scss/at-rule-no-unknown': [
