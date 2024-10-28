@@ -52,8 +52,8 @@ importers:
         version: link:../eslint-config-vue
     devDependencies:
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -65,8 +65,8 @@ importers:
         version: 2.29.1(eslint@9.13.0(jiti@1.21.6))
     devDependencies:
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -74,8 +74,8 @@ importers:
   packages/eslint-config-nuxt:
     devDependencies:
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -83,8 +83,8 @@ importers:
   packages/eslint-config-react:
     devDependencies:
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -92,8 +92,8 @@ importers:
   packages/eslint-config-ts:
     devDependencies:
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -108,8 +108,8 @@ importers:
         version: 2.4.1(eslint@9.13.0(jiti@1.21.6))
     devDependencies:
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -117,8 +117,8 @@ importers:
   packages/prettier-config:
     devDependencies:
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -136,8 +136,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -148,8 +148,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -170,8 +170,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -189,8 +189,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0
       tsup:
-        specifier: ^8.3.4
-        version: 8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
+        specifier: ^8.3.5
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -1800,8 +1800,8 @@ packages:
   ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
 
-  tsup@8.3.4:
-    resolution: {integrity: sha512-0uCsxLADTFwGsEfSMx5fBFtXNw1mZJBAU6ZJe6xMeGfLT6o/12JDigvBIrQJEZlK01YBsocRxU3i+YY6QduShQ==}
+  tsup@8.3.5:
+    resolution: {integrity: sha512-Tunf6r6m6tnZsG9GYWndg0z8dEV7fD733VBFzFJ5Vcm1FtlXB8xBD/rtrBi2a3YKEV7hHtxiZtW5EAVADoe1pA==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -3421,7 +3421,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsup@8.3.4(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3):
+  tsup@8.3.5(jiti@1.21.6)(postcss@8.4.47)(typescript@5.6.3):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.24.0)
       cac: 6.7.14
