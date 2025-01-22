@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recommended-vue": "^1.5.0"
+    "stylelint-config-recommended-vue": "^1.6.0"
   },
   "devDependencies": {
     "fix-tsup-cjs": "^1.2.0",
