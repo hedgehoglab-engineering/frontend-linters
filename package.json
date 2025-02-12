@@ -22,7 +22,7 @@
     "@hedgehoglab/stylelint-config": "workspace:^",
     "@types/eslint": "^9.6.1",
     "bumpp": "^10.0.2",
-    "eslint": "^9.20.0",
+    "eslint": "^9.20.1",
     "prettier": "^3.5.0",
     "sort-package-json": "^2.14.0",
     "stylelint": "^16.14.1"
