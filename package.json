@@ -23,7 +23,7 @@
     "@types/eslint": "^9.6.1",
     "bumpp": "^10.0.3",
     "eslint": "^9.20.1",
-    "prettier": "^3.5.1",
+    "prettier": "^3.5.2",
     "sort-package-json": "^2.14.0",
     "stylelint": "^16.14.1"
   },
