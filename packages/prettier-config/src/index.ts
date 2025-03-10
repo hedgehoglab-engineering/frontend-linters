@@ -17,7 +17,6 @@ const config: Options = {
     rangeStart: 0,
     endOfLine: 'auto',
     semi: true,
-    vueIndentScriptAndStyle: true,
     // TODO: Figure out how this is configured in the next template
     // importOrder: [
     //     '^@core/(.*)$',

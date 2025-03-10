@@ -13,8 +13,6 @@ Monorepo for managing all the linter configs used on projects within the hedgeho
 - [@hedgehoglab/eslint-config](./packages/eslint-config)
 - [@hedgehoglab/eslint-config-basic](./packages/eslint-config-basic)
 - [@hedgehoglab/eslint-config-ts](./packages/eslint-config-ts)
-- [@hedgehoglab/eslint-config-vue](./packages/eslint-config-vue)
-- [@hedgehoglab/eslint-config-nuxt](./packages/eslint-config-nuxt)
 - [@hedgehoglab/eslint-config-react](./packages/eslint-config-react)
 
 ### Prettier
@@ -29,7 +27,6 @@ Monorepo for managing all the linter configs used on projects within the hedgeho
 - [@hedgehoglab/stylelint-config](./packages/stylelint-config)
 - [@hedgehoglab/stylelint-config-basic](./packages/stylelint-config-basic)
 - [@hedgehoglab/stylelint-config-scss](./packages/stylelint-config-scss)
-- [@hedgehoglab/stylelint-config-vue](./packages/stylelint-config-vue)
 
 
 ## Contributing

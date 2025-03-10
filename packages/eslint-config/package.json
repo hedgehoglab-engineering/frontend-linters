@@ -28,10 +28,8 @@
   },
   "dependencies": {
     "@hedgehoglab/eslint-config-basic": "workspace:*",
-    "@hedgehoglab/eslint-config-nuxt": "workspace:*",
     "@hedgehoglab/eslint-config-react": "workspace:*",
-    "@hedgehoglab/eslint-config-ts": "workspace:*",
-    "@hedgehoglab/eslint-config-vue": "workspace:*"
+    "@hedgehoglab/eslint-config-ts": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.4.0",

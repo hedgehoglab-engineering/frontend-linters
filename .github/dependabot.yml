@@ -25,14 +25,6 @@ updates:
       - samturrell
 
   - package-ecosystem: npm
-    directory: "/packages/eslint-config-nuxt"
-    schedule:
-      interval: daily
-    open-pull-requests-limit: 10
-    reviewers:
-      - samturrell
-
-  - package-ecosystem: npm
     directory: "/packages/eslint-config-react"
     schedule:
       interval: daily
@@ -42,14 +34,6 @@ updates:
 
   - package-ecosystem: npm
     directory: "/packages/eslint-config-ts"
-    schedule:
-      interval: daily
-    open-pull-requests-limit: 10
-    reviewers:
-      - samturrell
-
-  - package-ecosystem: npm
-    directory: "/packages/eslint-config-vue"
     schedule:
       interval: daily
     open-pull-requests-limit: 10
@@ -82,14 +66,6 @@ updates:
 
   - package-ecosystem: npm
     directory: "/packages/stylelint-config-scss"
-    schedule:
-      interval: daily
-    open-pull-requests-limit: 10
-    reviewers:
-      - samturrell
-
-  - package-ecosystem: npm
-    directory: "/packages/stylelint-config-vue"
     schedule:
       interval: daily
     open-pull-requests-limit: 10

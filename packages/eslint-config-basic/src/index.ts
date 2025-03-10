@@ -2,7 +2,7 @@
 import * as pluginImport from 'eslint-plugin-i';
 import { type Linter } from 'eslint';
 
-const config: Linter.FlatConfig = {
+const config: Linter.Config = {
     plugins: {
         import: pluginImport,
     },

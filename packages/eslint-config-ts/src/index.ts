@@ -1,6 +1,6 @@
 import { Linter } from 'eslint';
 
-const config: Linter.FlatConfig = {
+const config: Linter.Config = {
 
 };
 
