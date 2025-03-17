@@ -30,5 +30,8 @@
     "fix-tsup-cjs": "^1.2.0",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "stylelint": "^16.15.0"
   }
 }

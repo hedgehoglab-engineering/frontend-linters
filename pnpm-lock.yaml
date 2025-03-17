@@ -44,6 +44,9 @@ importers:
       '@hedgehoglab/eslint-config-ts':
         specifier: workspace:*
         version: link:../eslint-config-ts
+      eslint:
+        specifier: ^9.22.0
+        version: 9.22.0(jiti@2.4.2)
     devDependencies:
       tsup:
         specifier: ^8.4.0
@@ -54,6 +57,9 @@ importers:
 
   packages/eslint-config-basic:
     dependencies:
+      eslint:
+        specifier: ^9.22.0
+        version: 9.22.0(jiti@2.4.2)
       eslint-plugin-i:
         specifier: ^2.29.1
         version: 2.29.1(eslint@9.22.0(jiti@2.4.2))
@@ -66,6 +72,10 @@ importers:
         version: 5.8.2
 
   packages/eslint-config-react:
+    dependencies:
+      eslint:
+        specifier: ^9.22.0
+        version: 9.22.0(jiti@2.4.2)
     devDependencies:
       tsup:
         specifier: ^8.4.0
@@ -75,6 +85,10 @@ importers:
         version: 5.8.2
 
   packages/eslint-config-ts:
+    dependencies:
+      eslint:
+        specifier: ^9.22.0
+        version: 9.22.0(jiti@2.4.2)
     devDependencies:
       tsup:
         specifier: ^8.4.0
@@ -84,6 +98,10 @@ importers:
         version: 5.8.2
 
   packages/prettier-config:
+    dependencies:
+      prettier:
+        specifier: ^3.5.3
+        version: 3.5.3
     devDependencies:
       tsup:
         specifier: ^8.4.0
@@ -100,6 +118,9 @@ importers:
       '@hedgehoglab/stylelint-config-scss':
         specifier: workspace:*
         version: link:../stylelint-config-scss
+      stylelint:
+        specifier: ^16.15.0
+        version: 16.15.0(typescript@5.8.2)
     devDependencies:
       fix-tsup-cjs:
         specifier: ^1.2.0
@@ -112,6 +133,10 @@ importers:
         version: 5.8.2
 
   packages/stylelint-config-basic:
+    dependencies:
+      stylelint:
+        specifier: ^16.15.0
+        version: 16.15.0(typescript@5.8.2)
     devDependencies:
       fix-tsup-cjs:
         specifier: ^1.2.0
