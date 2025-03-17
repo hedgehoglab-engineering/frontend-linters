@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/eslint-config-ts",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Typescript eslint config rules for the hedgehog lab org",
   "keywords": [
     "eslint-config",
@@ -27,11 +27,11 @@
     "build": "tsup src/index.ts --format esm,cjs --clean --dts",
     "test": "tsc --noEmit"
   },
+  "dependencies": {
+    "eslint": "^9.22.0"
+  },
   "devDependencies": {
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
-  },
-  "dependencies": {
-    "eslint": "^9.22.0"
   }
 }

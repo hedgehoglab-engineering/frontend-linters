@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/stylelint-config-scss",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "SCSS specific stylelint config rules for the hedgehog lab org",
   "keywords": [
     "stylelint-config",

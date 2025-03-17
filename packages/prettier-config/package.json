@@ -1,6 +1,6 @@
 {
   "name": "@hedgehoglab/prettier-config",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Prettier config rules for the hedgehog lab org",
   "keywords": [
     "prettier-config",
@@ -26,11 +26,11 @@
     "build": "tsup src/index.ts --format esm,cjs --clean --dts",
     "test": "tsc --noEmit"
   },
+  "dependencies": {
+    "prettier": "^3.5.3"
+  },
   "devDependencies": {
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
-  },
-  "dependencies": {
-    "prettier": "^3.5.3"
   }
 }
