@@ -27,7 +27,7 @@
     "test": "tsc --noEmit"
   },
   "dependencies": {
-    "stylelint": "^16.16.0"
+    "stylelint": "^16.17.0"
   },
   "devDependencies": {
     "fix-tsup-cjs": "^1.2.0",
