@@ -27,7 +27,7 @@
     "test": "tsc --noEmit"
   },
   "dependencies": {
-    "eslint": "^9.29.0",
+    "eslint": "^9.30.0",
     "eslint-plugin-i": "^2.29.1"
   },
   "devDependencies": {
