@@ -30,7 +30,7 @@
     "@hedgehoglab/eslint-config-basic": "workspace:*",
     "@hedgehoglab/eslint-config-react": "workspace:*",
     "@hedgehoglab/eslint-config-ts": "workspace:*",
-    "eslint": "^9.30.0"
+    "eslint": "^9.30.1"
   },
   "devDependencies": {
     "tsup": "^8.5.0",
