@@ -29,7 +29,7 @@
   "dependencies": {
     "@hedgehoglab/stylelint-config-basic": "workspace:*",
     "@hedgehoglab/stylelint-config-scss": "workspace:*",
-    "stylelint": "^16.21.1"
+    "stylelint": "^16.22.0"
   },
   "devDependencies": {
     "fix-tsup-cjs": "^1.2.0",
