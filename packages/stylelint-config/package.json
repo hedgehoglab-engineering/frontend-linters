@@ -8,6 +8,14 @@
     "hedgehoglab"
   ],
   "homepage": "https://github.com/hedgehoglab-engineering/frontend-linters/tree/main/packages/stylelint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedgehoglab-engineering/frontend-linters.git",
+    "directory": "packages/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/hedgehoglab-engineering/frontend-linters/issues"
+  },
   "license": "ISC",
   "author": "Sam Turrell <sam.turrell@hedgehoglab.com>",
   "type": "module",
