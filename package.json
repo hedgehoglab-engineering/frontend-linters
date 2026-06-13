@@ -1,6 +1,9 @@
 {
   "name": "hhl-linters",
   "version": "2.1.2",
+  "bugs": {
+    "url": "https://github.com/hedgehoglab-engineering/frontend-linters/issues"
+  },
   "private": true,
   "description": "Basic linter rules for the hedgehog lab org",
   "license": "ISC",
